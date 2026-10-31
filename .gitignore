@@ -1,0 +1,24 @@
+# Outils locaux et dépendances de développement
+node_modules/
+coverage/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Sorties Tizen / profils de signature personnels
+.buildResult/
+build/
+dist/
+*.wgt
+*.p12
+*.pfx
+*.pem
+*.key
+profiles.xml
+author-signature.xml
+signature*.xml
+.env
+.env.*
+
+# Graphe local Codebase Memory
+.codebase-memory/
