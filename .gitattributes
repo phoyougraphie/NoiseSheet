@@ -1,0 +1,3 @@
+# Préserver les octets du modèle importé ; pas de normalisation implicite.
+* -text
+*.png binary
