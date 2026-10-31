@@ -24,6 +24,10 @@ profil de signature local. Suivre [les vérifications TV](docs/TESTING.md).
 La cible identifiée et le premier lancement confirmé sont consignés dans
 [l'état du projet](docs/STATE.md). La grille complète reste à exécuter ; aucun
 script de déploiement automatique n'est livré.
+Le fichier `tizen_web_project.yaml` généré par l'extension reste local, ainsi
+que les dossiers de compilation et de déploiement. Vérifier sa liste `files`
+avant packaging : seuls les fichiers nécessaires à l'application doivent partir
+sur la TV.
 
 ## Reprendre avec Codex
 

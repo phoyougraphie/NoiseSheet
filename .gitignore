@@ -14,11 +14,22 @@ dist/
 *.pfx
 *.pem
 *.key
+*.pwd
 profiles.xml
 author-signature.xml
 signature*.xml
 .env
 .env.*
+
+# Sorties et configuration générées sur le poste par l'extension Tizen
+/Build/
+/Debug/
+/Release/
+/Test/
+/.tizen-rds/
+/.sign/
+/.package/
+/tizen_web_project.yaml
 
 # Graphe local Codebase Memory
 .codebase-memory/

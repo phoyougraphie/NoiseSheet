@@ -9,6 +9,8 @@ For structural codebase exploration, use the installed `codebase-memory` skill.
 
 ## À chaque tâche
 
+Méthode : comprendre → planifier → coder → tester → documenter.
+
 1. Lire `docs/STATE.md`, puis seulement les documents utiles. Vérifier `git status`
    et conserver les modifications et fichiers existants de l'utilisateur.
 2. Identifier les composants concernés avec Codebase Memory ; vérifier leur
@@ -31,6 +33,8 @@ For structural codebase exploration, use the installed `codebase-memory` skill.
   démontré. Conserver les identifiants Tizen et les ressources existantes.
 - Prévoir télécommande, focus visible, Retour et cycle de vie pour chaque écran.
   Ne pas supposer qu'un test avec API Tizen simulée valide un appareil réel.
+- Réserver le paquet TV aux fichiers applicatifs. La documentation, les tests,
+  les outils de développement et les réglages personnels restent hors du `.wgt`.
 - Tester les comportements modifiés et leurs cas limites ; ne pas recopier
   l'implémentation dans les tests. Ne pas imposer de tests pour une simple prose.
 - `docs/DECISIONS.md` : seulement les choix durables et leurs raisons.

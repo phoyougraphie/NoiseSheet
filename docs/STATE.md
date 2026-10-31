@@ -8,6 +8,10 @@
   PNG. Aucun changement fonctionnel des sources dans cette préparation.
 - Méthode Codex, documentation, tests et workflow préparés sur une branche de PR.
   La fusion et la grille complète de validation TV restent à faire.
+- Structure installée aussi dans le dossier utilisé par VS Code, désormais relié
+  à la branche `codex/ai-workflow`. Une annotation de types locale dans
+  `js/main.js` est conservée sans être intégrée à la PR. Les sorties Tizen et
+  `tizen_web_project.yaml` restent locaux et sont ignorés par Git.
 - Vérification locale : huit tests réussis avec Node 24.22.1 via
   `node --test tests/app.test.cjs` ; CI GitHub également réussie.
 - Aucun moteur génératif livré. Ne pas confondre le modèle horloge avec NoiseSheet
