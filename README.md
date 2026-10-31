@@ -21,8 +21,9 @@ TV. La visibilité et le rendu réel ne sont pas couverts par les simulations.
 
 Pour la TV : disposer des outils Samsung/Tizen, d'une cible configurée et d'un
 profil de signature local. Suivre [les vérifications TV](docs/TESTING.md).
-Le modèle/année de TV, la version des outils et le chemin de packaging restent
-à confirmer ; aucune commande de déploiement n'est supposée validée.
+La cible identifiée et le premier lancement confirmé sont consignés dans
+[l'état du projet](docs/STATE.md). La grille complète reste à exécuter ; aucun
+script de déploiement automatique n'est livré.
 
 ## Reprendre avec Codex
 

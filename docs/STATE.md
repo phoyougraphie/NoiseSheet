@@ -5,13 +5,25 @@
 - Dépôt GitHub initialement vide, sans branche. Le dossier local examiné n'avait
   pas de métadonnées Git ; six fichiers applicatifs et des réglages VS Code.
 - Base applicative copiée octet pour octet : manifeste, HTML, CSS, JS et deux
-  PNG. Le dossier d'origine et ses réglages personnels restent intacts.
+  PNG. Aucun changement fonctionnel des sources dans cette préparation.
 - Méthode Codex, documentation, tests et workflow préparés sur une branche de PR.
-  La fusion et la validation réelle sur TV restent à faire.
+  La fusion et la grille complète de validation TV restent à faire.
 - Vérification locale : huit tests réussis avec Node 24.22.1 via
-  `node --test tests/app.test.cjs`. Aucun essai navigateur ou TV effectué ici.
+  `node --test tests/app.test.cjs` ; CI GitHub également réussie.
 - Aucun moteur génératif livré. Ne pas confondre le modèle horloge avec NoiseSheet
   terminé ; les intentions artistiques sont dans `VISION.md`.
+
+## Premier essai TV
+
+- Cible reconnue par SDB : Samsung `UE55AU7105KXXC`, Tizen `6.0`.
+- Outils : extension VS Code Tizen `10.4.4`, configuration initiale terminée,
+  mode développeur activé et connexion SDB vérifiée.
+- Profil Samsung `NoiseSheet` créé et actif ; clés et mots de passe hors Git.
+- Compilation, installation et premier lancement confirmés par l'utilisateur
+  le 2026-10-31 depuis le dossier local. Le commit déployé n'est pas identifié,
+  ce dossier n'étant pas un dépôt Git lors de l'inspection initiale.
+- Navigation complète, horloge, Retour/Exit, reprise et endurance : pas encore
+  de résultats consignés. Le premier lancement ne valide pas toute la grille.
 
 ## Limites connues
 
@@ -25,7 +37,7 @@
 
 ## Prochaine action
 
-Après revue de la PR, identifier la cible et consigner une première passe de la
-grille TV de `TESTING.md`, puis fiabiliser le cycle de vie (roadmap P1).
+Après revue de la PR, compléter la grille TV de `TESTING.md` et identifier la
+révision testée, puis fiabiliser le cycle de vie (roadmap P1).
 À chaque reprise, vérifier l'état Git et les fichiers avant de mettre cette page
 à jour ; ne pas ajouter de journal quotidien.
